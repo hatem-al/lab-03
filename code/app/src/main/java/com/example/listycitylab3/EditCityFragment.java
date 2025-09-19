@@ -20,6 +20,9 @@ public class EditCityFragment extends DialogFragment {
     private EditCityDialogListener listener;
     private City city;
 
+
+    public EditCityFragment(){}
+
     public EditCityFragment(City city) {
         this.city = city;
     }
